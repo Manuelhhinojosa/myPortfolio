@@ -1,0 +1,40 @@
+.introContainer {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.introTextContainer {
+  height: 80vh;
+  width: 90%;
+  border: 1px solid #59b256;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.introName {
+  font-size: 60px;
+  font-weight: 300;
+}
+
+.introTitle {
+  height: 50px;
+  font-weight: 100;
+  font-size: 2rem;
+  color: #59b256;
+}
+
+@media screen and (max-width: 920px) {
+  .introName {
+    font-size: 30px;
+  }
+
+  .introTitle {
+    font-size: 1.5rem;
+  }
+}
