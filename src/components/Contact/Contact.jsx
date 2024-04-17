@@ -87,7 +87,7 @@ const Contact = () => {
             </div>
 
             <div className={styles.contactInfoItem}>
-              <a href="https://github.com/Manuelhh">
+              <a href="https://github.com/Manuelhhinojosa">
                 <img className={styles.contactIcon} src={Github} alt="github" />
               </a>
               gitHub
