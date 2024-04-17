@@ -1,15 +1,17 @@
 .product {
-  width: 30%;
-  height: 35vh;
+  width: 40%;
+  height: 50vh;
   margin: 20px 10px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
+  border: 1px solid yellowgreen;
+  border-radius: 1rem;
 }
 
 .imgContainer {
-  height: 70%;
+  height: 60%;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -20,41 +22,62 @@
   height: 80%;
   width: 80%;
   object-fit: cover;
-  opacity: 0.7;
   border-radius: 1rem;
 }
 
 .descContainer {
-  height: 30%;
+  height: 40%;
   width: 100%;
   display: flex;
 }
 
-.projectImage:hover {
-  cursor: none;
-  opacity: 1;
-}
-
 .projectDescContainer {
-  flex: 2;
+  flex: 4;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  color: #59b256;
+  align-items: center;
+  justify-content: space-around;
   overflow: hidden;
   overflow-y: scroll;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid coral;
+  border-radius: 1rem;
+  padding: 1rem;
 }
 
 .projectDescContainer::-webkit-scrollbar {
-  width: 0.1vw;
+  width: 1px;
 }
 
 .projectDescContainer::-webkit-scrollbar-thumb {
-  background-color: #59b256;
+  background-color: transparent;
 }
 
 .projectDescContainer::-webkit-scrollbar-track {
   background-color: transparent;
+}
+
+.projectTitle {
+  font-size: 0.8rem;
+  text-decoration: underline;
+  margin-bottom: 1rem;
+}
+
+.projectDesdcription {
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+.ProjectTechs {
+  min-height: 60%;
+  font-size: 0.8rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: min-content;
 }
 
 .projectLinksContainer {
@@ -69,7 +92,7 @@
   width: 2rem;
   height: 2rem;
   border-radius: 50%;
-  border: 1px solid #59b256;
+  border: 1px solid coral;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -77,36 +100,13 @@
 
 .projectLinksContainer div a {
   font-size: 0.7rem;
-  color: #59b256;
+  color: wheat;
   text-decoration: none;
 }
 
-.projectLinksContainer div:hover {
-  background-color: #59b256;
-  transition: 0.3s;
-}
-
 .projectLinksContainer div a:hover {
-  color: white;
+  color: yellowgreen;
   transition: 0.3s;
-}
-
-.projectTitle {
-  font-size: 0.7rem;
-  text-decoration: underline;
-}
-
-.projectDesdcription {
-  font-size: 0.6rem;
-}
-
-.ProjectTechs {
-  height: 35%;
-  width: 90%;
-  font-size: 0.5rem;
-  display: flex;
-  flex-wrap: wrap;
-  height: min-content;
 }
 
 @media screen and (max-width: 920px) {
@@ -116,12 +116,12 @@
   }
 
   .projectLinksContainer div {
-    width: 1.35rem;
-    height: 1.35rem;
+    width: 1rem;
+    height: 1rem;
   }
 
   .projectLinksContainer div a {
-    font-size: 0.55rem;
+    font-size: 0.4rem;
   }
 
   .projectTitle {

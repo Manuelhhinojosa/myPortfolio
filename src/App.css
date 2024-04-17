@@ -1,9 +1,9 @@
 html::-webkit-scrollbar {
-  width: 0.2vw;
+  width: 2px;
 }
 
 html::-webkit-scrollbar-thumb {
-  background-color: #59b256;
+  background-color: coral;
 }
 
 html::-webkit-scrollbar-track {

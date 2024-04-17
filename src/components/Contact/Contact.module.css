@@ -21,6 +21,11 @@
   font-size: 3.5rem;
   width: auto;
   text-align: center;
+  border: 1px solid coral;
+  border-radius: 1rem;
+  margin-left: 1rem;
+  padding: 1rem;
+  color: yellowgreen;
 }
 
 .contactInfoItem {
@@ -47,10 +52,11 @@
 
 .contactDescription {
   font-weight: 200;
+  text-align: center;
   width: 75%;
-  border: 1px solid #59b256;
-  border-radius: 5px 5px 0px 0px;
-  padding: 10px;
+  border: 1px solid yellowgreen;
+  border-radius: 1rem;
+  padding: 2rem;
 }
 
 .contactForm {
@@ -66,12 +72,16 @@
   width: 95%;
   height: 50px;
   border: none;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid transparent;
   margin: 10px 0px;
   font-size: 14px;
   padding-left: 10px;
-  background-color: #222;
-  color: #59b256;
+  color: wheat;
+}
+
+.contactForm input:hover {
+  border-bottom: 1px solid coral;
+  transition: 0.3s;
 }
 
 .contactForm input:focus {
@@ -79,14 +89,18 @@
 }
 
 .contactForm textarea {
-  background-color: #222;
   width: 95%;
   margin: 10px 0px;
   font-size: 14px;
   padding-left: 10px;
   border: none;
-  border-bottom: 1px solid white;
-  color: #59b256;
+  border-bottom: 1px solid transparent;
+  color: wheat;
+}
+
+.contactForm textarea:hover {
+  border-bottom: 1px solid coral;
+  transition: 0.3s;
 }
 
 .contactForm textarea:focus {
@@ -95,33 +109,31 @@
 
 .contactForm button {
   border: none;
-  border-radius: 1rem;
-  padding: 15px;
-  background-color: #59b256;
-  color: white;
-  font-weight: 500;
-  cursor: pointer;
-  width: 25%;
+  color: wheat;
+  font-size: 1rem;
 }
 
 .contactForm button:hover {
   transition: 0.3s;
-  background-color: white;
-  color: #59b256;
+  color: coral;
+  cursor: pointer;
 }
 
 .thanksMessage {
-  color: #59b256;
+  color: wheat;
   font-weight: 100;
   margin-top: 10px;
 }
 
 .thanksMessage span {
   font-size: 0.7rem;
+  color: coral;
 }
 
 .thanksMessage span:hover {
   cursor: pointer;
+  color: yellowgreen;
+  transition: 0.3s;
 }
 
 @media screen and (max-width: 920px) {

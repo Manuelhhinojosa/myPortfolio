@@ -9,7 +9,8 @@
 .introTextContainer {
   height: 80vh;
   width: 90%;
-  border: 1px solid #59b256;
+  border: 1px solid coral;
+  border-radius: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -26,7 +27,7 @@
   height: 50px;
   font-weight: 100;
   font-size: 2rem;
-  color: #59b256;
+  color: yellowgreen;
 }
 
 @media screen and (max-width: 920px) {

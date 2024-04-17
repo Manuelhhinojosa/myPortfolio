@@ -7,16 +7,17 @@
 }
 
 .plTexts {
-  width: 65%;
-  height: auto;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
+  width: 100%;
 }
 
 .plTitle {
   font-size: 60px;
-  font-weight: 200;
-  color: #59b256;
+  color: yellowgreen;
   text-align: center;
+  padding: 4rem;
+  border: 2px solid coral;
+  border-radius: 1rem;
 }
 
 .plList {
