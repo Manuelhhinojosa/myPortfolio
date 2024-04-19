@@ -80,7 +80,11 @@ const Contact = () => {
             </div>
 
             <div className={styles.contactInfoItem}>
-              <a href="https://vermillion-tapioca-a5d4b2.netlify.app/ManuelHHinojosa-Resume-PDF.pdf">
+              <a
+                href="https://manuelhhcv.netlify.app/cv.pdf"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img className={styles.contactIcon} src={Cv} alt="cv" />
               </a>
               CV

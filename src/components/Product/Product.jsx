@@ -20,10 +20,14 @@ const Product = ({ img, linkGit, linkApp, title, desc, techs }) => {
 
         <div className={styles.projectLinksContainer}>
           <div>
-            <a href={linkGit}>code</a>
+            <a href={linkGit} target="_blank" rel="noreferrer">
+              code
+            </a>
           </div>
           <div>
-            <a href={linkApp}>app</a>
+            <a href={linkApp} target="_blank" rel="noreferrer">
+              app
+            </a>
           </div>
         </div>
       </div>
