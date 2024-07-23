@@ -37,7 +37,7 @@ export const products = [
     ],
     img: "https://res.cloudinary.com/mangud/image/upload/v1655041118/manuel/api_jp41gw.webp",
     linkGit: "https://github.com/Manuelhhinojosa/marisela-fierro-api",
-    linkApp: "https://mariselafierroapi-5307e550f9a3.herokuapp.com/posts",
+    linkApp: "https://marisela-api.vercel.app/posts",
   },
   {
     id: 3,
@@ -109,7 +109,7 @@ export const products = [
     ],
     img: "https://res.cloudinary.com/mangud/image/upload/v1655038544/manuel/yelpcamp_lispaw.png",
     linkGit: "https://github.com/Manuelhhinojosa/yelpcamp-MEN",
-    linkApp: "https://yelpcampmhh-100f4baccd5b.herokuapp.com/home",
+    linkApp: "https://yelpcamp-murex-ten.vercel.app/home",
   },
   {
     id: 7,
@@ -129,7 +129,7 @@ export const products = [
     img: "https://res.cloudinary.com/mangud/image/upload/v1655038101/manuel/applants_xbwao1.png",
     linkGit:
       "https://github.com/Manuelhhinojosa/applants-Mongo-Express-HTML-CSS-JS",
-    linkApp: "https://applantsmhh-03d7f1699150.herokuapp.com/applants",
+    linkApp: "https://applants.vercel.app/applants",
   },
   {
     id: 8,
@@ -202,7 +202,7 @@ export const products = [
     techs: ["React", "React router V6", "Heroku", "HTML", "Typescript", "SASS"],
     img: "https://res.cloudinary.com/mangud/image/upload/v1681244219/manuel/Screen_Shot_2023-04-11_at_4.15.48_PM_rlhpvi.png",
     linkGit: "https://github.com/Manuelhhinojosa/hangman-React-Typescript-SASS",
-    linkApp: "https://hangman2mhh-4c4b0a46aadc.herokuapp.com",
+    linkApp: "https://hangmanmhh.vercel.app",
   },
   {
     id: 16,
@@ -211,7 +211,7 @@ export const products = [
     techs: ["React", "Typescript", "Heroku", "SASS", "HTML"],
     img: "https://res.cloudinary.com/mangud/image/upload/v1681244395/manuel/Screen_Shot_2023-04-11_at_4.19.26_PM_ri7vbq.png",
     linkGit: "https://github.com/Manuelhhinojosa/taskify-React-Typescript-SASS",
-    linkApp: "https://taskifymhh-1be2d822fc09.herokuapp.com",
+    linkApp: "https://taskifymhh.vercel.app",
   },
   {
     id: 17,
