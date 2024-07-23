@@ -37,6 +37,10 @@
   }
 
   .plTitle {
-    font-size: 2rem;
+    font-size: 3rem;
+  }
+
+  .plList {
+    justify-content: center;
   }
 }
