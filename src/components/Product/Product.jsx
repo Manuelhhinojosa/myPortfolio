@@ -21,7 +21,7 @@ const Product = ({ img, linkGit, linkApp, title, desc, techs }) => {
         <div className={styles.projectLinksContainer}>
           <div>
             <a href={linkGit} target="_blank" rel="noreferrer">
-              code
+              more
             </a>
           </div>
           <div>

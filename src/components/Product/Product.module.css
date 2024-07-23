@@ -89,10 +89,6 @@
 }
 
 .projectLinksContainer div {
-  width: 2.25rem;
-  height: 2.25rem;
-  border-radius: 50%;
-  border: 1px solid coral;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -100,12 +96,11 @@
 
 .projectLinksContainer div a {
   font-size: 0.7rem;
-  color: wheat;
-  text-decoration: none;
+  color: yellowgreen;
 }
 
 .projectLinksContainer div a:hover {
-  color: yellowgreen;
+  color: wheat;
   transition: 0.3s;
 }
 
@@ -120,19 +115,15 @@
     height: 1.35rem;
   }
 
-  .projectLinksContainer div a {
-    font-size: 0.5rem;
-  }
-
   .projectTitle {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
   }
 
   .projectDesdcription {
-    font-size: 0.5rem;
+    font-size: 0.7rem;
   }
 
   .ProjectTechs {
-    font-size: 0.5rem;
+    font-size: 0.7rem;
   }
 }
