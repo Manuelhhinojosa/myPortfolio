@@ -91,14 +91,22 @@ const Contact = () => {
             </div>
 
             <div className={styles.contactInfoItem}>
-              <a href="https://github.com/Manuelhhinojosa">
+              <a
+                href="https://github.com/Manuelhhinojosa"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img className={styles.contactIcon} src={Github} alt="github" />
               </a>
               gitHub
             </div>
 
             <div className={styles.contactInfoItem}>
-              <a href="https://www.linkedin.com/in/manuelhh/">
+              <a
+                href="https://www.linkedin.com/in/manuelhh/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img className={styles.contactIcon} src={In} alt="in" />
               </a>
               linkedin
