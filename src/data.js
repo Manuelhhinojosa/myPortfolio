@@ -86,7 +86,7 @@ export const products = [
   {
     id: 10,
     title: "Secret message app",
-    desc: "This app allows to share secret messages by sharing an URL with a secret messaged encoded",
+    desc: "Allows to share secret a messages using an URL with a secret messaged encoded",
     techs: ["JS", "Node", "JSON"],
     img: "https://res.cloudinary.com/mangud/image/upload/v1713319557/manuel/Screen_Shot_2024-04-17_at_9.05.03_AM_kep5uk.png",
     linkGit: "https://github.com/Manuelhhinojosa/secretMessage-HTML-JS",
