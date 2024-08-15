@@ -1,8 +1,17 @@
 export const products = [
   {
+    id: 0,
+    title: "Professional Portfolio Website",
+    desc: "Content writer's Portfolio",
+    techs: ["React", "TailwindCSS", "Cloudinary", "JS", "Framer motion"],
+    img: "https://res.cloudinary.com/mangud/image/upload/v1723728470/manuel/Screen_Shot_2024-08-15_at_9.27.38_AM_f6bhfn.png",
+    linkGit: "https://github.com/Manuelhhinojosa/byronFastWebsite",
+    linkApp: "https://byronfast.netlify.app/",
+  },
+  {
     id: 1,
-    title: "Website & blog",
-    desc: "Personal website & blog",
+    title: "Professional Website & Blog",
+    desc: "Artist & professor's website & blog",
     techs: ["MongoDB", "Express", "React", "NodeJS", "Cloudinary"],
     img: "https://res.cloudinary.com/mangud/image/upload/v1655149324/manuel/marisela_hj00nt.png",
     linkGit:
@@ -11,44 +20,46 @@ export const products = [
   },
   {
     id: 2,
-    title: "API",
-    desc: "REST API",
+    title: "Rest API",
+    desc: "Professional website & blog's REST API",
     techs: ["MongoDB", "Express", "NodeJS", "JS", "Vercel"],
     img: "https://res.cloudinary.com/mangud/image/upload/v1655041118/manuel/api_jp41gw.webp",
     linkGit: "https://github.com/Manuelhhinojosa/marisela-fierro-api",
     linkApp: "https://marisela-api.vercel.app/posts",
   },
   {
-    id: 3,
-    title: "OK200 Web Programmer",
-    desc: "Provides software updates to electronic instruments",
-    techs: ["Express", "React", "NodeJS", "Typescript", "SASS"],
-    img: "https://res.cloudinary.com/mangud/image/upload/v1713514030/manuel/Screen_Shot_2024-04-19_at_3.06.55_PM_luvy3y.png",
-    linkGit: "https://github.com/scottc11/ok-web-programmer",
-    linkApp: "https://underconstructionmhh.netlify.app/",
-  },
-  {
     id: 4,
     title: "ChatApp",
-    desc: "Live chat app",
+    desc: "Live chat web app",
     techs: ["Socket IO", "React router v6", "Json web token", "JS", "SASS"],
-    img: "https://res.cloudinary.com/mangud/image/upload/v1669734791/manuel/Screen_Shot_2022-11-29_at_10.12.57_AM_yktoik.png",
+    img: "https://res.cloudinary.com/mangud/image/upload/v1723729803/manuel/Screen_Shot_2024-08-15_at_9.48.52_AM_i8dyyb.png",
     linkGit: "https://github.com/Manuelhhinojosa/chat-app-client",
     linkApp: "https://underconstructionmhh.netlify.app",
   },
   {
     id: 5,
-    title: "API",
-    desc: "REST API",
+    title: "Rest API",
+    desc: "Live chat web app's REST API",
     techs: ["MongoDB", "Express", "NodeJS", "JS", "Atlas' MongoDB"],
     img: "https://res.cloudinary.com/mangud/image/upload/v1655041118/manuel/api_jp41gw.webp",
     linkGit: "https://github.com/Manuelhhinojosa/chatAppApi",
     linkApp: "https://underconstructionmhh.netlify.app",
   },
+
+  {
+    id: 3,
+    title: "OK200 Web Programmer",
+    desc: "Provides software updates to electronic instruments",
+    techs: ["React", "Typescript", "SASS", "HTML", "Git & Github"],
+    img: "https://res.cloudinary.com/mangud/image/upload/v1713514030/manuel/Screen_Shot_2024-04-19_at_3.06.55_PM_luvy3y.png",
+    linkGit: "https://github.com/scottc11/ok-web-programmer",
+    linkApp: "https://underconstructionmhh.netlify.app/",
+  },
+
   {
     id: 6,
     title: "Yelpcamp",
-    desc: "A Yelp-like CRUD app for campsites",
+    desc: "A Yelp-like CRUD web application for campsites",
     techs: ["Express", "Location services", "Map Serivices"],
     img: "https://res.cloudinary.com/mangud/image/upload/v1655038544/manuel/yelpcamp_lispaw.png",
     linkGit: "https://github.com/Manuelhhinojosa/yelpcamp-MEN",
@@ -57,7 +68,7 @@ export const products = [
   {
     id: 7,
     title: "Applants",
-    desc: "An Instagram-like CRUD application",
+    desc: "An Instagram-like CRUD web application",
     techs: ["MongoDB", "Express", "NodeJS", "HTML", "JS"],
     img: "https://res.cloudinary.com/mangud/image/upload/v1655038101/manuel/applants_xbwao1.png",
     linkGit:
@@ -67,7 +78,7 @@ export const products = [
   {
     id: 8,
     title: "Movie Fight",
-    desc: "Compares two movies collecting data from a pulic API",
+    desc: "Compares two movies collecting data from a public API",
     techs: ["Netlify", "Axios", "JSON", "Public API"],
     img: "https://res.cloudinary.com/mangud/image/upload/v1655037769/manuel/movieFight_nrycmy.png",
     linkGit:
@@ -76,8 +87,8 @@ export const products = [
   },
   {
     id: 9,
-    title: "Weather app",
-    desc: "Provides weather conditions collecting data from an API",
+    title: "Weather App",
+    desc: "Provides weather conditions collecting data from a public API",
     techs: ["Netlify", "Axios", "JSON", "Public API"],
     img: "https://res.cloudinary.com/mangud/image/upload/v1713319294/manuel/Screen_Shot_2024-04-17_at_9.01.13_AM_ru4xnd.png",
     linkGit: "https://github.com/Manuelhhinojosa/weatherApp",
@@ -85,7 +96,7 @@ export const products = [
   },
   {
     id: 10,
-    title: "Secret message app",
+    title: "Secret Message App",
     desc: "Allows to share secret a messages using an URL with a secret messaged encoded",
     techs: ["JS", "Node", "JSON"],
     img: "https://res.cloudinary.com/mangud/image/upload/v1713319557/manuel/Screen_Shot_2024-04-17_at_9.05.03_AM_kep5uk.png",
@@ -113,7 +124,7 @@ export const products = [
   {
     id: 13,
     title: "Connect Four",
-    desc: "Classic Connect Four game",
+    desc: "Classic Connect four game",
     techs: ["HTML", "CSS", "JS", "Netlify", "DOM manipulation"],
     img: "https://res.cloudinary.com/mangud/image/upload/v1655037011/manuel/connectFour_rqb0fo.png",
     linkGit: "https://github.com/Manuelhhinojosa/connectFour",
@@ -121,7 +132,7 @@ export const products = [
   },
   {
     id: 14,
-    title: "Timer app",
+    title: "Timer App",
     desc: "Interactive timer app",
     techs: ["HTML", "CSS", "JS", "Netlify", "git"],
     img: "https://res.cloudinary.com/mangud/image/upload/v1655037217/manuel/timerApp_kprfnv.png",
@@ -148,7 +159,7 @@ export const products = [
   },
   {
     id: 17,
-    title: "HTML & CSS website",
+    title: "HTML & CSS Website",
     desc: "A website created using only HTML and CSS",
     techs: ["HTML", "CSS", "Netlify", "Git", "Github"],
     img: "https://res.cloudinary.com/mangud/image/upload/v1655037938/manuel/website_efsv77.png",
