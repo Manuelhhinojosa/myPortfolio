@@ -1,5 +1,23 @@
 export const products = [
   {
+    id: 18,
+    title: "E-commerce website",
+    desc: "jeweller's Online shop",
+    techs: ["MERN", "SASS", "Stripe", "JS", "Redux"],
+    img: "https://res.cloudinary.com/mangud/image/upload/v1724430366/manuel/Screen_Shot_2024-08-23_at_12.24.03_PM_hl4cof.png",
+    linkGit: "https://github.com/Manuelhhinojosa/MariselaShopClient",
+    linkApp: "https://underconstructionmhh.netlify.app",
+  },
+  {
+    id: 19,
+    title: "E-commerce website' REST API",
+    desc: "jeweller's Online shop's REST API",
+    techs: ["MERN", "Atlas", "Stripe", "JS", "EmailJS"],
+    img: "https://res.cloudinary.com/mangud/image/upload/v1655041118/manuel/api_jp41gw.webp",
+    linkGit: "https://underconstructionmhh.netlify.app",
+    linkApp: "https://underconstructionmhh.netlify.app",
+  },
+  {
     id: 0,
     title: "Professional Portfolio Website",
     desc: "Content writer's Portfolio",
