@@ -2,11 +2,11 @@ export const products = [
   {
     id: 18,
     title: "E-commerce website",
-    desc: "jeweller's Online shop",
+    desc: "E-commerce project",
     techs: ["MERN", "SASS", "Stripe", "JS", "Redux"],
-    img: "https://res.cloudinary.com/mangud/image/upload/v1724430366/manuel/Screen_Shot_2024-08-23_at_12.24.03_PM_hl4cof.png",
+    img: "https://res.cloudinary.com/mangud/image/upload/v1725545511/manuel/Screen_Shot_2024-09-05_at_9.59.47_AM_jcrmp9.png",
     linkGit: "https://github.com/Manuelhhinojosa/MariselaShopClient",
-    linkApp: "https://underconstructionmhh.netlify.app",
+    linkApp: "https://shopriga.netlify.app",
   },
   {
     id: 19,
